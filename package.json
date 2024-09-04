@@ -1,5 +1,5 @@
 {
-  "name": "my-project",
+  "name": "template-storybook",
   "version": "1.0.0",
   "private": true,
   "type": "module",
@@ -57,5 +57,11 @@
     "extends": [
       "plugin:storybook/recommended"
     ]
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
   }
 }
